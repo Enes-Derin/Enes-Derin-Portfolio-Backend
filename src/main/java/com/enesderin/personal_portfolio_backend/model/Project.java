@@ -17,6 +17,8 @@ public class Project {
     private Long id;
 
     private String title;
+
+    @Lob
     private String description;
     private String githubLink;
     private String demoLink;
