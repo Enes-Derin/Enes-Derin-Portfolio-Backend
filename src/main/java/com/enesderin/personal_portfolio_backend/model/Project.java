@@ -19,6 +19,7 @@ public class Project {
     private String title;
 
     @Lob
+    @Column(columnDefinition = "LONGTEXT")
     private String description;
     private String githubLink;
     private String demoLink;
