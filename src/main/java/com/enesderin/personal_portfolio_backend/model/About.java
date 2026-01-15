@@ -15,6 +15,7 @@ public class About {
     @Id
     private Long id;
 
+    @Lob
     private String aboutText;
     private String profileImage;
 }
