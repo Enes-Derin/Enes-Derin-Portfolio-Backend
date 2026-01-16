@@ -17,5 +17,8 @@ public class About {
 
     @Lob
     private String aboutText;
+
+    @Lob
+    @Column(columnDefinition = "LONGTEXT")
     private String profileImage;
 }

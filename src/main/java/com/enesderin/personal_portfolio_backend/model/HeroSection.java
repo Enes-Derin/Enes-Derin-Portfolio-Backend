@@ -19,5 +19,8 @@ public class HeroSection {
     private String subtitle;
     private String buttonText;
     private String buttonLink;
+
+    @Lob
+    @Column(columnDefinition = "LONGTEXT")
     private String backgroundImage;
 }
